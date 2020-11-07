@@ -15,7 +15,7 @@ body {
     border-radius: 25px;
     margin: 10px;
     padding: 10px;
-    background-color: #ffd1c9;
+    background-color: #e93212;
 }
 
 .eatBurger {
@@ -25,7 +25,7 @@ body {
     border-radius: 25px;
     margin: 10px;
     padding: 10px;
-    background-color: #dfffc9;
+    background-color: #eaec58;
 }
 
 .addBurger {
@@ -33,4 +33,9 @@ body {
 }
 label{
     font-size:x-large;
+}
+
+.image {
+    width: 100%;
+    height: 200px;
 }
