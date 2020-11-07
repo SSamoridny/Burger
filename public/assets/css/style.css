@@ -1,0 +1,36 @@
+h1{
+    font-size: xx-large;
+}
+
+body {
+    text-align: center;
+    background-color: orange;
+    font-family: 'Syne Tactile', cursive;
+}
+
+  .eatenBurger{
+    font-weight: normal;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 25px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #ffd1c9;
+}
+
+.eatBurger {
+    font-weight: normal;
+    font-size: 20px;
+    text-align: left;
+    border-radius: 25px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #dfffc9;
+}
+
+.addBurger {
+    width:10;
+}
+label{
+    font-size:x-large;
+}

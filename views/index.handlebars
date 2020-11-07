@@ -1,0 +1,40 @@
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTXINIXHmRHZ36sJVds8JdkBL9iuFQJT0LFTw&usqp=CAU">
+<h1>Eat-Da-Burger!</h1>
+<div class="container-fluid">
+<div class="row">
+<div class="col-6 form-inline form-group">
+<ul class="list-group">
+  {{#each burgers}}
+    {{#unless this.devoured}}
+        <div class="list-group-item eatBurger">{{this.burger_name}} <button data-id="{{this.id}}" class="btn btn-warning float-right devourBurger">Devour it !!!</button></div>
+    {{/unless}}
+  {{/each}}
+</ul>
+</div>
+<div class="col-6 form-inline form-group">
+<ul class="list-group">
+  {{#each burgers}}
+    {{#if this.devoured}}
+        <div class="eatenBurger">{{this.id}}. {{this.burger_name}}</div>
+    {{/if}}
+  {{/each}}
+</ul>
+</div>
+</div>
+</div>
+<!-- Pass in data from server.js -->
+<br /><hr />
+
+    <div class="row">
+        <div class="col-12 d-flex justify-content-center">
+            <form class="create-form">
+            <div class="mb-2">
+                <label for="Name" class="form-label">Burger Name</label>
+                <input type="text" class="form-control" rows="3" id="Name" name="Name" placeholder="Yummy Burger">
+            </div>
+            <button type="submit" class="btn btn-primary btn-lg addBurger">Add a Burger</button>
+            <p>Enter the name of the burger that you want to eat and click on Add a Burger</p>
+            </form>
+        </div>
+    </div>
+</div>
