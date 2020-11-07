@@ -1,8 +1,6 @@
 const express = require('express')
 const app = express() 
-const express = require("express");
 const exphbs = require("express-handlebars");
-const app = express();
 const burger = require( './controllers/burgers_controller.js' );
 
 // Set the port of our application
