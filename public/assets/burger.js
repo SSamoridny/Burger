@@ -27,7 +27,7 @@ $(document).ready( function(){
       );
     });
   
-    $(".create-form").on("submit", function(event) {
+    $(".addBurger").on("click", function(event) {
       // Make sure to preventDefault on a submit event.
       event.preventDefault();
   
@@ -46,7 +46,7 @@ $(document).ready( function(){
           // Reload the page to get the updated list
           document.body.scrollTop = 0; // For Safari
           document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-          location.reload();
+          location.reload("/");
         }
       );
     });
