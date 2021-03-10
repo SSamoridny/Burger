@@ -33,7 +33,7 @@
 
 ## Email Address:
 
-   [Email]ssamoridny@gmail.com 
+   Email ssamoridny@gmail.com 
   
 
 ## License:
