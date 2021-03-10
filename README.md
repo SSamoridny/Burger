@@ -33,7 +33,7 @@
 ## Email Address:
 
         ssamoridny@gmail.com 
-        https://stormy-plains-40623.herokuapp.com/
+        [Burger App](https://stormy-plains-40623.herokuapp.com/)
 
 ## License:
     
