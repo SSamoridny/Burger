@@ -21,6 +21,7 @@
 ## Usage:
 
          Upon opening the app you will see a screen where you have buttong and inputs to enter the name of a new burger that you would like to eat or to devour a burger in your list. Simply follow the prompts and enjoy.
+   [Burger App](https://stormy-plains-40623.herokuapp.com/)
 
 ## Credits:
 
@@ -32,8 +33,8 @@
 
 ## Email Address:
 
-        ssamoridny@gmail.com 
-  [Burger App](https://stormy-plains-40623.herokuapp.com/)
+   [Email]ssamoridny@gmail.com 
+  
 
 ## License:
     
@@ -62,5 +63,5 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 }
       
-
+![Screen Shot 2021-03-10 at 10 59 47 AM](https://user-images.githubusercontent.com/30538162/110675286-f1aec000-818f-11eb-86b3-8b2f1da63f84.png)
    
